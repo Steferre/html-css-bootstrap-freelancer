@@ -5,125 +5,172 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Bootstrap-Freelancer</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Bootstrap-Freelancer</title>
 </head>
 <body>
-    <!--header+jumbotron-->
-    <div class="container-fluid bg_green">
-        <div class="row bg_deepblue">
-            <nav>
-                <div class="col-xs-12">
-                    <h4>Start Bootstrap</h4>
+    <header class="bg_deepblue">
+        <nav class="navbar no_margin color_white">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand color_white text-uppercase">
+                        Start Bootstrap
+                    </a>
+                    <!--bottone per humburger menù in mobile e tablet-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bg_white"></span>
+                        <span class="icon-bar bg_white"></span>
+                        <span class="icon-bar bg_white"></span>
+                    </button> 
                 </div>
-            </nav>   
-        </div>
-        <div class="row">
-            <article>
-                <div class="col-xs-4 col-xs-offset-4">
-                    <img src="img/avatar.svg" class="img-responsive center-block" alt="omino che ride">
-                    <h1>Start Bootstrap</h1>
-                    <p>linea con stellina al centro</p>
-                    <span>graphic artist-web designer-illustrator</span>
+
+                <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+                    <li><a href="#" class="color_white text-uppercase">Portfolio</a></li>
+                    <li><a href="#" class="color_white text-uppercase">About</a></li>
+                    <li><a href="#" class="color_white text-uppercase">Contact</a></li>
+                </ul>        
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg_green in_edge">
+            <div class="container">
+                <img src="img/avatar.svg" class="img-responsive center-block img_box" alt="omino
+                che ride">
+                <h3 class="text-uppercase text-center color_white">Start Bootstrap</h3>
+                <div class="line_star center-block color_white">
+                    <hr class="my_rule_left">
+                    <span class="glyphicon glyphicon-star magic_box text-center"></span>
+                    <hr class="my_rule_right">
                 </div>
-            </article>      
-        </div>    
-    </div>
-    <!--portfolio-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12">
-                <h4>Portfolio</h4>
-                <span>riga con stellina</span>
+                <div class="text-center">    
+                    <a href="#" class="color_white text-uppercase no_padding">graphic artist</a>   
+                    <span class="color_white">-</span>    
+                    <a href="#" class="color_white text-uppercase no_padding">web designer</a>    
+                    <span class="color_white">-</span>   
+                    <a href="#" class="color_white text-uppercase no_padding"> illustrator</a>
+                </div>    
             </div>
+        </section>
+        <section class="in_edge">
+            <div class="container">
+                <h4 class="text-center text-uppercase">portfolio</h4>
+                <div class="line_star center-block color_deepblue">
+                    <hr class="my_rule_left br_deepblue">
+                    <span class="glyphicon glyphicon-star magic_box text-center"></span>
+                    <hr class="my_rule_right br_deepblue">
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="img/cabin.png" class="img-responsive center-block img_br img-rounded" 
+                        alt="casetta di legno">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="img/cake.png" class="img-responsive center-block img_br img-rounded" alt="fetta di torta">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="img/circus.png" class="img-responsive center-block img_br img-rounded" 
+                        alt="circo">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="img/game.png" class="img-responsive center-block img_br img-rounded" 
+                        alt="joystick">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="img/safe.png" class="img-responsive center-block img_br img-rounded" 
+                        alt="cassaforte">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <img src="img/submarine.png" class="img-responsive center-block img_br img-rounded" 
+                        alt="sottomarino">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg_green in_edge">
+            <div class="container color_white">
+                <div class="row">
+                    <h4 class="color_white text-center text-uppercase">About</h4>
+                    <div class="line_star center-block color_white">
+                        <hr class="my_rule_left">
+                        <span class="glyphicon glyphicon-star magic_box text-center"></span>
+                        <hr class="my_rule_right">
+                    </div>    
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-2">
+                        <p>
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                         </p>
+                    </div>
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0">
+                        <p>
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                         </p>
+                    </div>        
+                </div>
+                <div class="center-block text-center">
+                    <a class="btn my_btn color_white" href="#" role="button">
+                        <span class="glyphicon glyphicon-save"></span>
+                        Download
+                    </a>
+                </div>    
+            </div>
+        </section>
+        <section class="in_edge">
+            <div class="container">
+                <h4 class="text-center text-uppercase">contact me</h4>
+                <div class="line_star center-block color_deepblue">
+                    <hr class="my_rule_left br_deepblue">
+                    <span class="glyphicon glyphicon-star magic_box text-center"></span>
+                    <hr class="my_rule_right br_deepblue">
+                </div>
+                <div class="row"> 
+                    <div class="col-xs-6 col-xs-offset-3 col-sm-8 col-sm-offset-2">
+                        <div class="form-group">
+                            <input type="name" class="form-control modify_control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control modify_control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control modify_control" placeholder="PhoneNumber">
+                        </div>
+                        <div class="form-group">
+                            <textarea row="10" class="form-control modify_control" placeholder="Message"></textarea>
+                        </div>
+                        <button>Send</button>
+                    </div>
+                </div>         
+            </div>
+        </section>    
+    </main>
+    <footer class="bg_top_footer">
+        <div class="container color_white in_edge">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 text-center">
+                    <p>LOCATION</p>
+                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 text-center">
+                    <p>AROUND THE WEB</p>
+                    <p>loghi dei social</p>
+                </div>
+                <div class="col-xs-12 col-sm-4 text-center">
+                    <p>ABOUT FREELANCER</p>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <a>Start Bootstrap</a>.</p>
+                </div>
+            </div>        
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="img/cabin.png" class="img-responsive center-block" alt="casetta di legno">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="img/cake.png" class="img-responsive center-block" alt="fetta di torta">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="img/circus.png" class="img-responsive center-block" alt="circo">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="img/game.png" class="img-responsive center-block" alt="joystick">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="img/safe.png" class="img-responsive center-block" alt="cassaforte">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="img/submarine.png" class="img-responsive center-block" alt="sottomarino">
-            </div>
-        </div>
-    </div>
-    <!--about-->
-    <div class="container-fluid bg_green">
-       <div class="row">
-           <div class="col-xs-4 col-xs-offset-4">
-               <h4>ABOUT</h4>
-               <span>riga con stellina</span>
-           </div>
-           <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-2">
-               <p>
-                   Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-                </p>
-           </div>
-           <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0">
-               <p>
-                   Whether you're a student looking to showcase your work, a professional looking to attract clients, ora a graphic artist looking to share your projects, this template is the perfect starting point!
-               </p>
-           </div>
-           <div class="col-xs-4 col-xs-offset-4">
-               <button>download</button>
-           </div>
-       </div> 
-    </div>
-    <!--contact me-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-4 col-xs-offset-4">
-                <h4>CONTACT ME</h4>
-                <span>riga con stellina</span>
-            </div> 
-        </div>
-        <div class="row">
-            <div class="col-xs-4 col-xs-offset-4 col-sm-8 col-sm-offset-2">
-                <p>Name</p>
-                <p>Email Address</p>
-                <p>Phone Number</p>
-                <p>Message</p>
-                <button>Send</button>
-            </div>
-        </div>     
-    </div>
-    <!--footer-->
-    <div class="container-fluid bg_top_footer">
-        <div class="row">
-            <div class="col-xs-12 col-sm-4">
-                <p>LOCATION</p>
-                <p>2215 John Daniel Drive Clark, MO 54243</p>
-            </div>
-            <div class="col-xs-12 col-sm-4">
-                <p>AROUND THE WEB</p>
-                <p>loghi dei social</p>
-            </div>
-            <div class="col-xs-12 col-sm-4">
-                <p>ABOUT FREELANCER</p>
-                <p>Freelance is a free to use, open source Bootstrap theme created by <a>Start Bootstrap</a>.</p>
-            </div>
-        </div>        
-    </div>
-    <div class="container-fluid bg_deepblue">
-        <div class="row">
-            <div class="col-xs-12">
+        <div class="container-fluid bg_deepblue color_white in_edge">
+            <div class="text-center">
                 <p>Copyright &copy; Your Website 2019</p>
             </div>
         </div>
-    </div>
+    </footer>    
 </body>
 </html>

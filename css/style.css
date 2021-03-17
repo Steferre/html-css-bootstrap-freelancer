@@ -9,3 +9,85 @@
 .bg_top_footer {
     background-color: #3A546D;
 }
+
+.bg_white {
+    background-color: #FFFFFF;
+}
+
+.color_white {
+    color: #FFFFFF;
+}
+
+.color_deepblue {
+    color: #2C3E50;
+}
+
+.no_margin {
+    margin-bottom: 0;
+}
+/*regolazione dimensione img avatar*/
+.img_box {
+    max-height: 150px;
+}
+
+/*classi per la stella inizio*/
+.line_star {
+    width: 250px;
+}
+.my_rule_left {
+    display: inline-block;
+    width: 40%;
+    margin: 0 0 6px 10px;
+    border: solid 1px #FFFFFF;    
+}
+.my_rule_right {
+    display: inline-block;
+    width: 40%;
+    margin: 0 0 6px 0;
+    border: solid 1px #FFFFFF;
+}
+.magic_box {
+    top: 0;
+    padding: 0 5px;
+}
+/*classi per la stella fine*/
+
+.utility_links {
+    width: 500px;
+}
+
+.no_border {
+    border: none;
+}
+
+.nav>li>.no_padding {
+    padding: 0;
+}
+.my_padding {
+    padding: 5px 10px;
+}
+
+.my_rule_left.br_deepblue,
+.my_rule_right.br_deepblue {
+    border: solid 1px #2C3E50;
+}
+
+.img_br {
+    margin: 15px 0;
+}
+
+.in_edge {
+   padding: 25px 0; 
+}
+
+.my_btn {
+    border: 1px solid #FFFFFF;
+    margin: 15px 0;
+}
+.modify_control {
+    padding: 0 0 10px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;  
+}
