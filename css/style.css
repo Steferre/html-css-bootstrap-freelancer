@@ -25,6 +25,20 @@
 .no_margin {
     margin-bottom: 0;
 }
+
+.nav>li>.my_link:hover {
+    background-color: #ffffff15;    
+}
+
+.my_link:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #ffffff15;
+}
+.my_link_btn:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 /*regolazione dimensione img avatar*/
 .img_box {
     max-height: 150px;
@@ -109,7 +123,6 @@
 .my_circle {
     display: inline-block;
     width: 30px;
-    height: 30px;
     border: solid 1px #FFFFFF;
     border-radius: 50%;
 }
