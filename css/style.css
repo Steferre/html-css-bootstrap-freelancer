@@ -84,10 +84,32 @@
     border: 1px solid #FFFFFF;
     margin: 15px 0;
 }
+
+.btn_green {
+    background-color: #1ABC9C;
+}
+
 .modify_control {
     padding: 0 0 10px 0;
     border-top: none;
     border-left: none;
     border-right: none;
     box-shadow: none;  
+}
+
+.fa {
+    font-size: 20px;
+    width: 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 5px;
+    color: #FFFFFF;
+}
+
+.my_circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #FFFFFF;
+    border-radius: 50%;
 }
